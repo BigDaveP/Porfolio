@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Porfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="src/font.css">
+        <link rel="stylesheet" href="src/style.css">
+        <script src="src/index.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="navbar-links">
+                    <a href="#about">À propos</a>
+                    <a href="#skills">Compétences</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="navbar-social">
+                    <a href="https://github.com/BigDaveP" target="_blank"><img width="32" src="src/img/github.svg" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/david-pigeon-5ba77b165" target="_blank"><img width="32" src="src/img/linkedin.svg" alt="linkedin"></a>
+                </div>  
+            </div>
+        </nav>
+        <div class="present-content">
+            <div class="present-text">
+                <h5>Bonjour, je suis</h5>
+                <h2>David Pigeon</h2>
+                <h1>Développeur Web</h1>
+                <h1><u>Fullstack</u></h1>
+                <a href="src/CV/CVVF2_David_Pigeon.pdf" target="_blank"><button>Mon CV</button></a>
+            </div>
+            <div class="present-img">
+                <img id="img_pp" src="src/img/pp.jpg" alt="pp">
+                <div class="rounded-circle-red"></div>
+                <div class="rounded-circle-blue"></div>
+            </div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h1 id="about">À propos de moi</h1>
+                <p>Je suis un développeur web fullstack, je suis passionné par le développement web et je suis toujours à la recherche de nouveaux projets à réaliser.</p>
+                <h2>Mon parcours</h2>
+                <ul>
+                    <li>Formation à l'<a style="color: white;" href="https://www.cegeprdl.ca/nouvelles/categories/informatique-ecole-du-web/">École Du Web</a> au cégep de Rivière-du-Loup</li>
+                    <li>Stage de 3 mois à la <a style="color: white;" href="https://www.villerdl.ca/fr">Ville de Rivière-du-Loup</a> en tant que développeur FullStack</li>
+                    <li>Projet avec le <a style="color: white;" href="https://projetsante.caapbsl.org/">CAAPBSL</a> pour l'intégration web du <a style="color: white;" href="https://moncarnetdesante.ca/">Carnet de santé</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="skill-content">
+            <div class="skill-text">
+                <h1 id="skills">Compétences</h1>
+                <div class="skill-group">
+                    <div class="skill-front">
+                        <h3>Frontend</h3>
+                        <ul class="skill">
+                            <li>HTML</li>
+                            <li>CSS3</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>ReactJS</li>
+                            <li>AngularTS</li>
+                            <li>VueJS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-back">
+                        <h3>Backend</h3>
+                        <ul class="skill">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>MySQL, MariaDB</li>
+                            <li>NodeJS</li>
+                            <li>Express</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <h1 id="projects">Projets</h1>
+            <div class="list-project">
+                <div class="project">
+                    <div class="project-img">
+                        <img src="src/img/moncarnetdesante.png" alt="moncarnetdesante">
+                    </div>
+                    <div class="project-text">
+                        <h2>Mon Carnet de Santé</h2>
+                        <p>Projet réalisé avec le CAAPBSL pour l'intégration web du Carnet de Santé dans le cadre d'un projet avec l'École du Web. Le projet a été finalisé durant l'été par mes soins.</p>
+                        <p>Le projet inclue : </p>
+                        <ul>
+                            <li>Une ergonomie adaptée au personne ayant des problèmes de littéracie.</li>
+                            <li>Un système de gestion de compte.</li>
+                            <li>Un système de gestion de rendez-vous.</li>
+                            <li>Plusieurs plugins réalisés "from scratch" pour avoir des éléments adaptés aux utilisateurs.</li>
+                        </ul>
+                        <p>Réalisé avec : </p>
+                        <ul>
+                            <li>ReactJS + ViteJS</li>
+                            <li>Laravel (API)</li>
+                            <li>MailTrap</li>
+                        </ul>
+                        <a href="https://moncarnetdesante.ca/" target="_blank">Visiter le site</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="src/img/kotlin.png" alt="kotlin">
+                    </div>
+                    <div class="project-text">
+                        <h2>SDS (Système d'ouverture de serrure)</h2>
+                        <p>Projet dans le cadre scolaire permettant de gérer les overtures sur plusieurs serrures. Le projet est conçu nativement sur android. Un microcontrolleur est installé pour ouvrir la serrure sur l'application mobile.</p>
+                        <p>Le projet inclue : </p>
+                        <ul>
+                            <li>Un système de gestion de compte.</li>
+                            <li>Un système de gestion d'ouverture.</li>
+                            <li>Un système de gestion de log.</li>
+                        </ul>
+                        <p>Réalisé avec : </p>
+                        <ul>
+                            <li>Kotlin</li>
+                            <li>Android Studio</li>
+                            <li>MongoDB</li>
+                            <li>C++</li>
+                            <li>Protocole MQTT</li>
+                        </ul>
+                        <a href="src/doc/Documentation.zip">Consulter la documentation</a><br/>
+                        <a href="https://github.com/BigDaveP/KotlinPorteSolace" target="_blank">Visiter le repository (android)</a><br/>
+                        <a href="https://github.com/BigDaveP/ESP32_Porte" target="_blank">Visiter le repository (microcontrolleur)</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="src/img/fps.png" alt="fps">
+                    </div>
+                    <div class="project-text">
+                        <h2>FPS_OnlyJS</h2>
+                        <p>Projet personnel réalisé pour en apprendre un peu plus sur le WebGL.</p>
+                        <p>Le projet inclue : </p>
+                        <ul>
+                            <li>Une navigation à la première personne.</li>
+                            <li>Un système de collision. (À améliorer)</li>
+                        </ul>
+                        <p>Réalisé avec : </p>
+                        <ul>
+                            <li>JavaScript (ThreeJS)</li>
+                        </ul>
+                        <a href="https://github.com/BigDaveP/FPS_ProjetOnlyJS" target="_blank">Visiter le repository</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="src/img/mh.png" alt="mh">
+                    </div>
+                    <div class="project-text">
+                        <h2>Multiple Headers</h2>
+                        <p>Projet personnel réalisé pour pratiquer l'intégration d'une maquette Figma en format HTML.</p>
+                        <p>Le projet inclue : </p>
+                        <ul>
+                            <li>Plusieurs styles de pages</li>
+                            <li>Contenu responsive</li>
+                            <li>Intégration au pixel près</li>
+                        </ul>
+                        <p>Réalisé avec : </p>
+                        <ul>
+                            <li>VueJS</li>
+                        </ul>
+                        <a href="https://github.com/BigDaveP/FPS_ProjetOnlyJS" target="_blank">Visiter le repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-content">
+            <h1 id="contact">Contact</h1>
+            <div class="contact-info">
+                <div class="contact-text">
+                    <div class="contact-header">
+                        <img src="src/img/email.svg" width="40" alt="email">
+                        <h4>Courriel : </h4>
+                    </div>
+                    <h5>davidpigeon@hotmail.com</h5>
+                </div>
+                <div class="contact-text">
+                    <div class="contact-header">
+                        <img src="src/img/phone.svg" width="40" alt="phone">
+                        <h4>Téléphone : </h4>
+                    </div>
+                    <h5>418-551-9834</h5>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
